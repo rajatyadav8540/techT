@@ -26,7 +26,7 @@
 }
 #navbar-nav ul li a:hover
 {
-    color: #007bff !important;
+    color: #007bff;
 }
 .navbar
 {
@@ -34,11 +34,11 @@
 }
 .navbar-toggler
 {
-    border: none!important;
+    border: none;
 }
 .nav-link
 {
-    color: #555 !important;
+    color: #555;
     font-weight: 600;
     font-size: 20px;
 }
@@ -92,7 +92,7 @@
 {
     top: 50%;
     transform: translateY(-50%);
-    bottom: initial!important;
+    bottom: initial;
 }
 .carousel-caption
 {
@@ -107,7 +107,7 @@
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/SAVE_20200824_084826.jpg);
 	background-size: cover;
     background-position: center;
-    color: black!important;
+    color: black;
 	font-weight: bold;
     background-attachment: fixed;
 	padding-left: 25px;
@@ -134,7 +134,7 @@
 }
 .progress
 {
-	border-radius: 16px !important;
+	border-radius: 16px;
 	margin-bottom: 20px;
 }
 /*------services-------*/
@@ -145,13 +145,13 @@
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/service.jpg);
     background-size: cover;
     background-position: center;
-    color: #efefef !important;
+    color: #efefef;
     background-attachment: fixed;
 }
 #services h1
 {
     text-align: center;
-    color: #efefef !important;
+    color: #efefef;
     padding-bottom: 10px;
 }
 #services h1::after
@@ -197,13 +197,13 @@
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/graphic.jpg);
     background-size: cover;
     background-position: center;
-    color: #efefef !important;
+    color: #efefef;
     background-attachment:fixed;
 }
 h1
 {
     text-align: center;
-    color: #fff !important;
+    color: #fff;
     padding-bottom: 10px;
 }
 h1::after
@@ -247,7 +247,7 @@ h1::after
 	outline: none;
     font-weight: bold;
     margin-top: 15%;
-    color: white!important;
+    color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -261,7 +261,7 @@ h1::after
 {
     height: 25px;
     width: 25px;
-    color: #007bff !important;
+    color: #007bff;
     background: #fff;
     padding:10px;
     border-radius: 50%;
@@ -302,13 +302,13 @@ box-shadow: 10px 15px 15px 10px #333;
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/profile.jpg);
     background-size: cover;
     background-position: center;
-    color: #efefef !important;
+    color: #efefef;
     background-attachment:fixed;
 }
 h1
 {
     text-align: center;
-    color: #555 !important;
+    color: #555;
     padding-bottom: 10px;
 }
 h1::after
@@ -352,7 +352,7 @@ h1::after
 	outline: none;
     font-weight: bold;
     margin-top: 15%;
-    color: white!important;
+    color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -366,7 +366,7 @@ h1::after
 {
     height: 25px;
     width: 25px;
-    color: #007bff !important;
+    color: #007bff;
     background: #fff;
     padding:10px;
     border-radius: 50%;
@@ -512,8 +512,8 @@ ul li:last-child
 }
 a
 {
-	text-decoration: none!important;
-	color: #fff!important;
+	text-decoration: none;
+	color: #fff;
 }
 /*-----------GET IN-----*/
 #contact
@@ -529,12 +529,12 @@ a
 }
 .form-control
 {
-	border-radius: 0 !important;
-	border: none !important;
+	border-radius: 0;
+	border: none;
 }
 ::placeholder
 {
-	color: #999 !important;
+	color: #999;
 }
 .follow
 {
