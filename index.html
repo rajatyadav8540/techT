@@ -1,0 +1,697 @@
+<html>
+<head>
+<link href="img/pp.jpeg" rel="icon"/>
+<title>techtitudetribe.co.in</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>
+  console.log(pageYOffset);
+
+  var nav=document.getElementsByClassName("navbar");
+  window.addEventListener("scroll",(e)=>{
+     var ypos=window.pageYOffset*.5;
+      // document.getElementById('ext').style.top= ypos-200+"px";
+      // document.getElementById('fix').innerHTML="scroll is"+pageYOffset;
+      if (pageYOffset > 50) {
+        document.getElementById("navbar").style.top=0;
+       
+
+      
+      if (pageYOffset > 100) {
+        
+        document.getElementById("navbar").style.transition="all 1.2s";
+        document.getElementById("navbar").classList.add("bg-nav");
+      } else {
+        
+  
+        document.getElementById("navbar").style.transition="all 1.2s";
+        document.getElementById("navbar").classList.remove("bg-nav");
+
+      }
+    }else{
+      document.getElementById("navbar").style.top="";
+     
+
+    }
+  });
+ 
+  
+</script>	
+</head>
+<body>
+  <script>
+    console.log(pageYOffset);
+
+  </script>
+ <!-----navigation bar---->                                                                     
+
+<nav class="navbar navbar-expand-lg p-0 " id="navbar">
+  <div class="container">
+  <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#top"></a>
+      </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#about">About</a>
+           </li>                             
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="members.html">Team</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="#product">Products</a>
+      </li> 
+                                    
+    
+    </ul>
+  </div>
+</div>
+</nav>                                                                               
+    <!------first---->
+	<div class="section">
+    
+  
+      <p class="">Help transit <br> the young mind <br> startups to realistic ones… <br>    
+        <a href="#contact">  <button class="my-2 border-0">Contact Us</button></a>
+      </p> 
+    
+    <!-- <img src="img/tbg2.jpg" alt="" class="img-fluid extra" id="ext"> -->
+    
+	
+	</div>
+
+	 <!-----------second div----->
+	<section id="second">
+		<div clas="container">
+		<div class="row">
+      <div class="col-md-3 order-md-2">
+        <img src="img/robo.png" alt="" class="robo">
+        </div>
+		<div class="col-md-9 px-lg-5">
+			<div class="about-content text-justify ">
+        Techtitude tribe was founded by a group of students with a vision of providing an easier way to help others transform their amazing ideas into the real world solutions, so that they may not feel that setting up a startup is a rocket-science.
+        Its motive is also to promote make-in-India moment. It is currently working and helping implement 6 great innovative ideas into the real world so that young entrepreneurs from around the nation may get help.
+        The startups which are being implemented under this organization are ‘Adharshila’, ‘Shilpart’,  ‘Handycart’, ‘Drugabuse’, ‘Attachaki’, etc. and more and more startups are being added day-by-day to our organization.		</div>
+			<a href="#about" class="">Read more... </a>
+		</div>	
+		</div>
+		</div>
+	</section>
+ <!-----------service----------->
+ 
+ 
+<!-- <div class="row services">
+<div class="col-md-4 col-6 text-center">
+  <div class="icon">
+    <i class="fa fa-desktop"></i>
+  </div>
+<h3>WEB DEVLOPMENT</h3>                        
+</div>
+<div class="col-md-4 col-6 text-center">
+  <div class="icon">
+<i class="fab fa-android  "></i>
+</div>
+<h3>APP DEVLOPMENT</h3>                        
+</div>
+<div class="col-md-4 col-6 text-center">
+  <div class="icon">
+    <i class="fas fa-line-chart"></i>
+  </div>
+  <h3>DIGITAL MARKETING</h3>                        
+</div>
+<div class="col-md-4 col-6 text-center">
+  <div class="icon">
+    <i class="fa fa-paint-brush"></i>
+  </div>
+  <h3>GRAPHIC DESIGN</h3>                        
+</div>
+<div class="col-md-4 col-6 text-center">
+  <div class="icon">
+    <img src="img/projector%20(1).png" height="35px">
+  </div>
+  <h3>WORKSHOP</h3>                        
+</div>
+<div class="col-md-4 col-6 text-center">
+  <div class="icon">
+    <img src="img/chat.png" height="35px">
+  </div>
+  <h3>BULK MESSAGE</h3>                       
+</div> -->
+
+<!----------------------product-------->
+<section id="product">
+  <div class="product-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d8d8d8" fill-opacity="1" d="M0,288L40,256C80,224,160,160,240,117.3C320,75,400,53,480,85.3C560,117,640,203,720,218.7C800,235,880,181,960,144C1040,107,1120,85,1200,96C1280,107,1360,149,1400,170.7L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>	
+  </div>
+
+  <div class="container row text-center mx-auto ">
+    <div class="col-3 mx-auto px-0">
+      <img src="img/1.png" alt="" class="img-fluid mx-auto">
+    </div>
+    <div class="col-3 px-0">
+      <img src="img/2.png" alt="" class="img-fluid mx-auto">
+    </div>
+    <div class="col-3 px-0">
+      <img src="img/3.png" alt="" class="img-fluid mx-auto">
+    </div>
+    <div class="col-3 px-0">
+      <img src="img/4.png" alt="" class="img-fluid mx-auto">
+    </div>
+  </div>
+    <div class="container row text-center mx-auto">
+      
+    <div class="col-3 ml-auto px-0">
+      <img src="img/5.png" alt="" class="img-fluid mr-0">
+    </div>
+    <div class="col-3 mx-0 px-0">
+      <img src="img/6.png" alt="" class="img-fluid mx-auto">
+    </div>
+    <div class="col-3 mr-auto px-0">
+      <img src="img/7.png" alt="" class="img-fluid">
+    </div>
+  </div>
+
+</section>
+
+<section id="services">
+
+  <div class="container service-container">
+    <div class="headingb mx-auto text-center">PRODUCTS</div>
+  <div class="row ">
+  <div class="col-md-2 col-4 profile-pic text-center mx-auto">
+  <div class="img-box"> 
+  <img src="img/aadharshila.png" class="img-fluid">
+  
+  </div>
+  <h2>AADHARSHILA</h2>                                           
+  </div> 
+  <div class="col-md-2 col-4 profile-pic text-center mx-auto">
+  <div class="img-box"> 
+  <img src="img/satkarya.png" class="img-fluid">
+  
+  </div>
+  <h2>SATKARYA</h2>                                           
+  </div>
+  <div class="col-md-2 col-4 profile-pic text-center mx-auto">
+  <div class="img-box"> 
+  <img src="img/shilpart.png" class="img-fluid">
+  
+  </div>
+  <h2>SHILPART</h2>                                           
+  </div>
+  <div class="col-md-2 col-4 profile-pic text-center mx-auto">
+  <div class="img-box"> 
+  <img src="img/attaChakki.png" class="img-fluid">
+  
+  </div>
+  <h2>ATTA CHAKI</h2>                                          
+  </div>
+  <div class="col-md-2 col-4 profile-pic text-center mx-auto">
+  <div class="img-box"> 
+  <img src="img/easy%20drive.png" class="img-fluid">
+  
+  </div>
+  <h2>EASYDRIVE</h2>                                        
+  </div>
+  </div>
+  </div>
+  
+              
+  </section>
+  
+
+
+
+<!----------------------team-------->
+<!-- <section id="team"> -->
+  <!-- <img src="img/tbg2.jpg" alt="" class="img-fluid extra" id="teamwrap"> -->
+<!-- <div class="container">
+<h1 class=" headingw ">TEAM</h1>
+  <div class="row mx-auto ">
+    <div class="col-lg-3 col-md-4  mx-auto ">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center ">
+          <img src="img/subh.jpg" alt="" class="img-fluid my-3">
+          <div class="profilename  py-1 text-center fixed-bottom my-2">Subir Singh</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4  mx-auto">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center">
+          <img src="img/subh.jpg" alt="" class="img-fluid my-3">
+          <div class="profilename my-2 py-1 text-center fixed-bottom">Yashpal Bharti</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4  mx-auto">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center">
+          <img src="subh.jpg" alt="" class="img-fluid my-3">
+          <div class="profilename my-2 py-1 text-center fixed-bottom">Yagyik Shrivastava</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4  mx-auto">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center">
+          <img src="subh.jpg" alt="" class="img-fluid my-3">
+          <div class="profilename my-2 py-1 text-center fixed-bottom">Priya Gupta</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4  mx-auto">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center">
+          <img src="img/shivam.jpeg" alt="" class="img-fluid my-3">
+          <div class="profilename my-2 py-1 text-center fixed-bottom">Shivam Singh</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4  mx-auto">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center">
+          <img src="img/kunjan.jpeg" alt="" class="img-fluid my-3">
+          <div class="profilename my-2 py-1 text-center fixed-bottom">Kunjan Soni</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4  mx-auto">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center">
+          <img src="img/karishma.jpeg" alt="" class="img-fluid my-3">
+          <div class="profilename my-2 py-1 text-center fixed-bottom">Karishma Chauhan</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4  mx-auto">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center">
+          <img src="img/ritu.jpeg" alt="" class="img-fluid my-3">
+          <div class="profilename my-2 py-1 text-center fixed-bottom">Ritu Verma</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4  mx-auto">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center">
+          <img src="img/me.jpeg" alt="" class="img-fluid my-3">
+          <div class="profilename my-2 py-1 text-center fixed-bottom">Rajat Yadav</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4  mx-auto">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center">
+          <img src="img/deepu.jpeg" alt="" class="img-fluid my-3">
+          <div class="profilename my-2 py-1 text-center fixed-bottom">Deepak Kumar</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4  mx-auto">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center">
+          <img src="img/subh.jpg" alt="" class="img-fluid my-3">
+          <div class="profilename my-2 py-1 text-center fixed-bottom">Sindhuja Pandey</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4  mx-auto">
+      <div class="card d-flex mx-auto my-2 border-0">
+        <div class="imgbox text-center">
+          <img src="img/subh.jpg" alt="" class="img-fluid my-3">
+          <div class="profilename my-2 py-1 text-center fixed-bottom">Aditi Arya</div>
+        </div>
+        <div class="contentbox p-2">
+          <div class="text-dark text-center font-weight-bold">Subir Singh</div>
+          <div class="text-dark text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nihil
+             omnis nostrum distinctio.</div>
+             <div class="mx-auto text-center fixed-bottom">
+              <a href="" class=""><i class="fab fa-facebook socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-linkedin socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-instagram socialicon mx-1"></i></a>
+              <a href="" class=""><i class="fab fa-twitter socialicon mx-1"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  </div>
+  </section>
+
+  <div class="container-fuild" id="prof">
+    <div class="container" id="about">
+        <div class="row" style="height: 100%; overflow:hidden;">
+            <div class="men"></div>
+            <div class="nav flex-column nav-pills list " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a onclick="back()" class="nav-link active " id="v-pills-history-tab" data-toggle="pill" href="#v-pills-history" role="tab" aria-controls="v-pills-history" aria-selected="true">History</a>
+                <a onclick="back()" class="nav-link " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Members</a>
+                <a onclick="back()" class="nav-link " id="v-pills-vision-tab" data-toggle="pill" href="#v-pills-vision" role="tab" aria-controls="v-pills-vision" aria-selected="false">Our Vision</a>
+                <a onclick="back()" class="nav-link " id="v-pills-destination-tab" data-toggle="pill" href="#v-pills-destination" role="tab" aria-controls="v-pills-destination" aria-selected="false">Destination</a>
+                <a onclick="back()" class="nav-link " id="v-pills-Investors-tab" data-toggle="pill" href="#v-pills-Investors" role="tab" aria-controls="v-pills-Investors" aria-selected="false">Investors</a>
+            </div>
+             <div class="tab-content content" id="v-pills-tabContent">
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" >
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                       <div class="row">
+                        <div class="col-6" style="padding-left: 100px;padding-top:30px;">
+                            <img src="./img/subh.jpg" alt="Subir singh" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Subir Singh</h5>
+                            <h7>CEO</h7>
+                            </div> 
+                        </div>
+                        <div class="col-6" style="padding-left: 100px;padding-top:30px;">
+                            <img src="./img/yashpal.jpg" alt="Yashpal Bharti" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Yashpal Bharti</h5>
+                            <h7>CEO</h7>
+                            </div> 
+                        </div>
+                        <div class="col-6" style="padding-left: 100px;padding-top:30px;">
+                            <img src="./img/yagyik.jpg" alt="Yagyik Shrivastava" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Yagyik Shrivastava</h5>
+                            <h7>COO</h7>
+                            </div> 
+                        </div>
+                        <div class="col-6" style="padding-left: 100px;padding-top:30px;">
+                            <img src="./img/kunjan.jpg" alt="Kunjan Soni" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Kunjan Soni</h5>
+                            <h7>CTO</h7>
+                            </div> 
+                        </div>
+                       </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                        <div class="col-6" style="padding-left: 100px;padding-top:30px;">
+                            <img src="./img/subir.jpg" alt="Karishma Chauhan" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Karishma Chauhan</h5>
+                            <h7>CTO</h7>
+                            </div> 
+                        </div>
+                        <div class="col-6" style="padding-left: 100px;padding-top:30px;">
+                            <img src="./img/aditi.jpg " alt="Aditi Arya" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Aditi Arya</h5>
+                            <h7>CDO</h7>
+                            </div> 
+                        </div>
+                        <div class="col-6" style="padding-left: 100px;padding-top:30px;">
+                            <img src="./img/subh.jpg" alt="Priya Gupta" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Priya Gupta</h5>
+                            <h7>CMO</h7>
+                            </div> 
+                        </div>
+                        <div class="col-6" style="padding-left: 100px;padding-top:30px;">
+                            <img src="./img/deepak.jpg" alt="Deepak Kumar" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Deepak Kumar</h5>
+                            <h7>CMO</h7>
+                            </div> 
+                        </div>
+                       </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                        <div class="col-6" style="padding-left: 100px;padding-top:30px;">
+                            <img src="./img/subh.jpg" alt="Sindhuja Pandey" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Sindhuja Pandey</h5>
+                            <h7>CFO</h7>
+                            </div> 
+                        </div>
+                        <div class="col-6" style="padding-left: 100px;padding-top:30px;">
+                            <img src="./img/subh.jpg" alt="Rajat Yadav" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Rajat Yadav</h5>
+                            <h7>CFO</h7>
+                            </div> 
+                        </div>
+                        <div class="col-6" style="padding-left: 100px;padding-top:30px;">
+                            <img src="./img/ritu.jpg" alt="Ritu Verma" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Ritu Verma</h5>
+                            <h7>Startup Cell</h7>
+                            </div> 
+                        </div>
+                        <div class="col-6" style="padding-left: 100px; padding-top:30px;"> 
+                            <img src="./img/shivam.jpg" alt="Shivam Singh" style="width:150px; height:150px; border:2px solid #13aa95; border-radius: 10px;">
+                            <div class="nm text-center" style="width:150px; margin-top:20px; padding-top:5px; height: fit-content; border-radius: 10px; overflow: hidden; background-color: #13aa95; color: white; font-family: sherif;">
+                            <h5>Shivam Singh</h5>
+                            <h7>Startup Cell</h7>
+                            </div> 
+                        </div>
+                       </div>
+                      </div>
+                    </div>
+                     
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+           
+            <div class="tab-pane p-3 m-3 fade show active" id="v-pills-history" role="tabpanel" aria-labelledby="v-pills-history-tab" style="border-radius:10px; text-align: justify; background: rgba(0,0,0,.5); height:90%; overflow: auto;">
+                <h5 style="font-family: sherif; color: white; line-height: 1.5; margin-top: 10px;">Techtitude tribe was founded by a group of students with a vision of providing an easier way to help others transform their amazing ideas into the real world solutions, so that they may not feel that setting up a startup is a rocket-science.
+                Its motive is also to promote make-in-India moment. It is currently working and helping implement 6 great innovative ideas into the real world so that young entrepreneurs from around the nation may get help.
+                The startups which are being implemented under this organization are ‘Adharshila’, ‘Shilpart’,  ‘Handycart’, ‘Drugabuse’, ‘Attachaki’, etc. and more and more startups are being added day-by-day to our organization.
+                </h5>
+            </div>
+            <div class="tab-pane  p-3 m-3 fade" id="v-pills-vision" role="tabpanel" aria-labelledby="v-pills-vision-tab" style="border-radius:10px; text-align: justify;overflow: auto; background: rgba(0,0,0,.5); height:90%;">
+            <h5 style="font-family: sherif; color: white; line-height: 1.5; margin-top: 10px;">Techtitude tribe was founded by a group of students with a vision of providing an easier way to help others transform their amazing ideas into the real world solutions, so that they may not feel that setting up a startup is a rocket-science.
+                Its motive is also to promote make-in-India moment. It is currently working and helping implement 6 great innovative ideas into the real world so that young entrepreneurs from around the nation may get help.
+                The startups which are being implemented under this organization are ‘Adharshila’, ‘Shilpart’,  ‘Handycart’, ‘Drugabuse’, ‘Attachaki’, etc. and more and more startups are being added day-by-day to our organization.
+            </h5>
+            </div>
+            <div class="tab-pane fade" id="v-pills-destination" role="tabpanel" aria-labelledby="v-pills-destination-tab">...</div>
+            <div class="tab-pane fade" id="v-pills-Investors" role="tabpanel" aria-labelledby="v-pills-Investors-tab">...</div>
+            </div>
+        </div>
+    </div>
+    </div> -->
+    <script>
+    function back(){
+        document.getElementsByClassName("nav-pills nav-link").style.background='#ffb51e';
+    }
+    </script>
+    <div class="container-fluid contact">
+        <img src="./img/3124625.jpg" class="mobile"></img>
+        <div class="row h-100">
+            <div class="col-4 col-lg-6">
+            </div>
+            <div class="col-8 col-lg-6 h-100">
+            <div class="contact-box">
+                <form>
+                <div class="form-group m-lg-4">
+                  <label for="exampleFormControlTextarea1"></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="......" rows="3"></textarea>
+                </div>
+                <div class="mx-auto text-center">
+                    <button type="submit" class="btn btn-danger mx-auto">Send</button>
+                </div>
+                </form>
+                <div class="mx-auto text-center">
+                    <h6 style="color:white;">or Contact us at...</h6>
+                </div>
+                <div class="mx-auto text-center my-lg-5" >
+                    <a href="" class="contact-icon"><img src="./img/fb.png"></img></a>
+                    <a href="" class="contact-icon"><img src="./img/twitter.jpg"></img></a>
+                    <a href="" class="contact-icon"><img src="./img/linkedin.png"></img></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+<!-- <div id="fix" style="position:fixed; bottom:0;border:5px solid black; ">
+  
+</div> -->
+	<!--------footer------>
+<section id="footer" class="container-fluid px-0 pb-0">
+
+  <!-- <div class="footerobo"> -->
+    <img src="img/footerobo.png" alt="" class="img-fluid footerobo">
+  <!-- </div> -->
+    <div class="container  mx-auto mt-5 pt-5 ">
+      <div class="row text-light mx-auto">
+        <div class="col-md-4">
+          <h1>Services</h1>
+         Web Development <br>App Development <br> Digital Marketing <br>Bulk Messaging <br> Graphic Designing <br> Workshop
+        </div>
+        <div class="col-md-4">
+          <h1>Contact Us</h1>
+          Techtitude Tribe <br>
+          Chandpur ,Bijnor <br>
+          Uttar Pradesh-246725
+        </div>
+        <div class="col-md-4">
+          <h1>Google Map</h1>
+          <img src="img/location.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+      <div class="footerpatti">
+       <div class="mt-4  ">
+         <div class="d-inline">
+
+         </div>
+         <div class="d-inline">
+          © 2020 Copyright:Techtitude Tribe All Rights Reserved
+         </div>
+         <div class="d-inline float-md-right mb-0">Designed By Techtitude Tribe</div>
+       </div>
+      </div>
+</section>
+<!------ footer close-------->	
+
+</body>                                                                                  
+</html>
