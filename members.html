@@ -57,7 +57,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto" style="font-size: 20px;">
           <li class="nav-item">
             <a class="nav-link" href="#top"></a>
           </li>
@@ -78,7 +78,7 @@
       </div>
     </div>
     </nav> 
-    <style>
+    <style> 
         #navbar{
     position: fixed;
     top: 10px;
@@ -92,7 +92,8 @@
 
 .navbar-brand img
 {
-    height: 50px;
+    height: 70px;
+    border-radius: 50%;
     /* padding-left: 20px; */
 }
 .nav-link{
@@ -106,7 +107,160 @@
 {
     border: none;
 }
+#footer
+{
+    margin-top: 200px;
+    background-image: url(img/footerbg.png);
+    background-size: cover;
+    padding: 12px;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    z-index: -1;
+    font-family: serif;
+}
 
+
+   
+.footerobo{
+    position: absolute;
+    top: -210px;
+    z-index: 99;
+    
+
+}
+.footerobo img{
+    z-index: 99999;
+}
+
+.footerpatti{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to top,black,black,transparent);
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 17px;
+    
+}
+.footerpatti div{
+    position: relative;
+    /* margin-top: 30px; */
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+    .section{
+        height: 50vh;
+    }
+    .section p{
+        font-size: 1rem;
+        line-height: 20px;
+        
+        margin: 0;
+    }
+    .section button{
+        font-size: 10px;
+    }
+
+    #second{
+        font-size: smaller;
+        line-height: 15px;
+    }
+
+    .robo{
+        max-height: 150px;
+        right: 10px;
+        top: -150px;
+    }
+    .headingb,.headingw{
+        font-size: 30px ;
+    }
+
+    .service-container{
+        position: relative;
+        
+    }
+    .service-container .headingb{
+    
+        background-color: white;
+        border-radius: 100px;
+        width: 320px;
+        position: relative;
+        top: -30px;
+    }
+
+    #product .row{
+        position: relative;
+        bottom: 30px;
+     }
+
+    .contact{
+        width: 100%; 
+        height:60vh; 
+        overflow: hidden; 
+        padding:0;
+        margin: 0;
+    }
+
+    .mobile{
+        z-index: -1;
+        position:absolute; 
+        height: 50vh; 
+        width: 100%;
+    }
+
+    .contact-box{
+        border-radius:10px; 
+        background: rgba(0,0,0,.75);
+        width: 80%; 
+        height:60%; 
+        padding: 20px;
+        margin: 20px;
+    }
+
+    #exampleFormControlTextarea1{
+        height: 40%; 
+        border-radius: 10px; 
+        
+    }
+
+    .contact-icon{
+        height:40px; 
+        overflow:hidden; 
+        width: 30%; 
+        /* margin: 10px;  */
+        border-radius: 50%;
+    }
+    
+    .contact-icon img{
+        height: 25px; 
+        width: 25px; 
+        border-radius: 50%;
+    }
+    
+
+
+
+    #footer{
+        height: 100%;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .footerobo{
+        position: absolute;
+        top: -170px;
+        left: -100px;
+    }
+    .footerpatti{
+        width: 100%;
+        min-height: 80px;
+    }
+   
+
+}
     </style>                          
     <!-- Header -->
     <header class="bg-dark text-center py-5 mb-4">
@@ -243,8 +397,31 @@
     
     </div>
     <!-- /.container -->
+  
 <section id="footer" class="container-fluid px-0 pb-0">
- <div class="footerpatti">
+
+  <!-- <div class="footerobo"> -->
+    <img src="img/footerobo.png" alt="" class="img-fluid footerobo">
+  <!-- </div> -->
+    <div class="container  mx-auto mt-5 pt-5 ">
+      <div class="row text-light mx-auto">
+        <div class="col-md-4">
+          <h1>Services</h1>
+         Web Development <br>App Development <br> Digital Marketing <br>Bulk Messaging <br> Graphic Designing <br> Workshop
+        </div>
+        <div class="col-md-4">
+          <h1>Contact Us</h1>
+          Techtitude Tribe <br>
+          Chandpur ,Bijnor <br>
+          Uttar Pradesh-246725
+        </div>
+        <div class="col-md-4">
+          <h1>Google Map</h1>
+          <img src="img/location.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+      <div class="footerpatti">
        <div class="mt-4  ">
          <div class="d-inline">
 
@@ -256,7 +433,8 @@
        </div>
       </div>
 </section>
-      
+<!------ footer close-------->	
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
