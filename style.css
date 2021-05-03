@@ -25,6 +25,7 @@ body{
     background-color: rgba(0, 0, 0, 0.883);
 }
 
+
 .navbar-brand img
 {
     height: 70px;
@@ -542,6 +543,15 @@ border-radius: 50%;
     position: relative;
     /* margin-top: 30px; */
 }
+
+.contactHeading{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px black;
+    color: rgb(37, 37, 37);
+}
+
 /* mobile */
 @media screen and (max-width: 576px) {
     .section{
@@ -607,10 +617,11 @@ border-radius: 50%;
     .contact-box{
         border-radius:10px; 
         background: rgba(0,0,0,.75);
-        width: 80%; 
+        width: 95%; 
         height:60%; 
-        padding: 20px;
-        margin: 20px;
+        margin: 0;
+        padding: 5px;
+        
     }
 
     #exampleFormControlTextarea1{
@@ -631,6 +642,14 @@ border-radius: 50%;
         height: 25px; 
         width: 25px; 
         border-radius: 50%;
+    }
+
+    .contactHeading{
+        font-size: 10px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 5px black;
+        color: rgb(37, 37, 37);
     }
     
 
@@ -663,5 +682,13 @@ border-radius: 50%;
    
     }
    
+    
+    .contactHeading{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 5px black;
+        color: rgb(37, 37, 37);
+    }
 
 }
