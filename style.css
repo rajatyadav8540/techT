@@ -552,6 +552,10 @@ border-radius: 50%;
     color: rgb(37, 37, 37);
 }
 
+.conttext{
+    font-size: 15px;
+}
+
 /* mobile */
 @media screen and (max-width: 576px) {
     .section{
@@ -680,6 +684,10 @@ border-radius: 50%;
 
     .fonts{
         font-size: 8px;
+    }
+
+    .conttext{
+        font-size: 9px;
     }
    
 
